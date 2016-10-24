@@ -1,0 +1,171 @@
+* {
+	padding: 0px;
+	margin: 0px;
+	font-family: "微软雅黑";
+	/* -webkit-user-select: none; */
+	/* -moz-user-select: none; */
+}
+
+a {
+	color: black;
+	/*text-decoration: none;*/
+	font-family: "微软雅黑";
+	background-color: white;
+}
+
+#baidu_header {
+	min-width: 800px;
+	height: 30px;
+	font-size: 14px;
+	border-bottom: solid 1px #CCCCCC;
+}
+
+#header_left ul {
+	margin: 5px 10px;
+	list-style-type: none;
+	float: left;
+}
+
+#header_right ul {
+	margin: 5px 0px;
+	font-weight: bold;
+	list-style-type: none;
+	float: right;
+}
+
+#header_left ul li {
+	padding: 0px 5px;
+	color: #555555;
+	display: inline;
+	cursor: default;
+}
+
+#header_right ul li {
+	padding: 0px 5px;
+	display: inline;
+}
+
+#header_right ul li a {
+	color: #555555;
+}
+
+#baidu_product {
+	color: white;
+	border: solid 6px #1E90FF;
+	background-color: #1E90FF;
+	cursor: default;
+}
+
+#baidu_searcher {
+	width: 800px;
+	padding-top: 60px;
+	margin: 0px auto;
+	/*text-align: center;*/
+}
+
+#search_area{
+	width: 638px;
+	margin-left: 80px;
+	position: relative;
+}
+
+#baidu_form{
+	height: 40px;
+	margin: 20px 0px;
+}
+
+#baidu_logo {
+	width: 270px;
+	height: 130px;
+	margin-left: 265px;
+}
+
+#baidu_text {
+	width: 500px;
+	height: 38px;
+	padding: 0px 8px;
+	border: solid 1px #AAAAAA;
+	border-right: solid 1px #1E90FF;
+	font-size: 16px;
+	outline: 0px;
+	float: left;
+}
+
+#baidu_text:focus {
+	border: solid 1px #1E90FF;
+}
+
+#baidu_submit {
+	height: 40px;
+	width: 120px;
+	border: 0px;
+	outline: 0px;
+	font-size: 16px;
+	cursor: pointer;
+	background-color: #1E90FF;
+	color: white;
+	float: left;
+}
+
+#baidu_submit:hover {
+	background-color: #1A80FF;
+}
+
+#baidu_footer {
+	width: 800px;
+	margin: 0px auto;
+	margin-top: 310px;
+	text-align: center;
+	color: #AAAAAA;
+	font-size: 12px;
+}
+
+#baidu_footer p {
+	line-height: 2em;
+}
+
+#baidu_footer p a {
+	color: #AAAAAA;
+	font-size: 12px;
+}
+
+#other_search {
+	width: 78px;
+	float: right;
+	clear: both;
+	display: none;
+}
+
+#other_search ul {
+	list-style-type: none;
+	text-align: center;
+}
+
+#other_search ul li {
+	color: white;
+	/*font-weight: bold;*/
+	padding: 6px 0px;
+	background-color: #1EACFF;
+	cursor: pointer;
+}
+#search_result{
+	width: 516px;
+	list-style: none;
+	text-align: left;
+	border-left: 1px solid #CCCCCC;
+	border-bottom: 1px solid #CCCCCC;
+	border-right: 1px solid #CCCCCC;
+	position: absolute;
+	top: 40px;
+	display: none;
+}
+.result_item{
+	color: #000;
+	font: 14px arial;
+	line-height: 25px;
+	padding: 0 8px;
+	display: none;
+}
+.result_item:hover{
+	background: #EEEEEE;
+}
